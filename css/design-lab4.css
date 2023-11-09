@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0;}
+.design-download{
+    display: flex;
+}
+.download-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:rgb(13, 193, 238) ;
+    margin-left: 250px;
+}
+.download-btn:hover {
+    background-color: rgb(1, 136, 255);
+    color: white;
+    
+}
+.download-btn a{
+   text-decoration: none;
+   color: black;
+   transition: 0.4s;
+   font-size: 18px;
+   
+
+}
+.download-btn:hover a{
+    color: white;
+}
+.download-btn a p{
+    margin-left: 10px;
+    padding-top: 7px;
+}
