@@ -3,7 +3,7 @@
     display: flex;
 }
 .download-btn{
-    width: 100px;
+    width: 150px;
     height: 40px;
     border-radius: 5px;
     background-color:rgb(13, 193, 238) ;
@@ -26,6 +26,10 @@
     color: white;
 }
 .download-btn a p{
-    margin-left: 10px;
+   text-align: center;
     padding-top: 7px;
+}
+.down-figma{
+    margin-top: 100px;
+    width: 200px;
 }
