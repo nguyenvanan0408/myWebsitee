@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/scenario.css">
+    <title>Thanh toán - Bước 3</title>
+</head>
+<body>
+
+    <header>
+        <h1>Thanh toán</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Thanh toán</h2>
+            <p>Người dùng tiến hành thanh toán và hoàn tất mua sắm.</p>
+            <form action="/checkout" method="post">
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="address">Địa chỉ:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="card">Số thẻ tín dụng:</label>
+                <input type="text" id="card" name="card" required>
+
+                <button type="submit">Hoàn tất thanh toán</button>
+
+                <img src="images/ChucNang.jpg" alt="">
+
+                <a href="index.html" class="thea">Quay Về Trang Chủ</a>
+                
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

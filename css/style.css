@@ -829,8 +829,9 @@ header .is-sticky .sticky .nav .dropdown-menu {
 }
 .header.light .navbar li a {
 	color: #fff;
-	margin-right: 250px;
-	font-size: 25px;
+	margin-right: 70px;
+	font-size: 20px;
+	padding-top: 12px;
 }
 .header.light .is-sticky .sticky {
 	background: rgba(0,0,0,0.9);
