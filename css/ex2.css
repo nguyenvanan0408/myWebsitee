@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap; /* Đảm bảo các phần tử con nằm trên cùng một dòng khi không đủ chỗ */
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .text-block {
+    flex: 1; /* Chia đôi không gian ngang cho hai khối văn bản */
+    padding: 10px;
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước thực của phần tử */
+    margin: 10px;
+    background-color: #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  aside {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .button-home{
+    margin: 70px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+   background-color: #333;
+  }
+  .button-home p{
+    color: white;
+    text-align: center;
+  }
+  a{
+  text-decoration: none;
+  }
+  
+  

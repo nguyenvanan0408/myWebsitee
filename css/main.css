@@ -1097,8 +1097,10 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
 }
 .bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
 	display: inline-block;
+
 *zoom:1;
 *display:inline;
+
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
 	background: #d8d8d8;
@@ -1186,7 +1188,7 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: #666\9;
+	background: #666;
 	background: rgba(80, 80, 80, 0.75);
 	width: 100%;
 }
