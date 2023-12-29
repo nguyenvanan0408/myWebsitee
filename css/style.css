@@ -104,6 +104,7 @@ li.li_1:hover .layer2_1{
 li.li_1 a.a1::before {
     margin-top: 2px;
 	width: 0px !important;
+	
 
 }
 .layer2 ul.ul_1 {
@@ -869,7 +870,7 @@ header .is-sticky .sticky .nav .dropdown-menu {
 }
 .header.light .navbar li a {
 	color: #fff;
-	margin-right: 70px;
+	margin-right: 40px;
 	font-size: 20px;
 	padding-top: 12px;
 }
